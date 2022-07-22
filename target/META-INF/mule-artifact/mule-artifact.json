@@ -1,0 +1,30 @@
+{
+  "configs": [
+    "global.xml",
+    "accounts.xml",
+    "apdev-examples.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:wt7-3_apdev-examples_solution:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.3.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "accounts.xml",
+        "apdev-examples.xml",
+        "application-types.xml",
+        "config.yaml",
+        "global.xml",
+        "log4j2.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
